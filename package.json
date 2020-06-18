@@ -1,0 +1,19 @@
+{
+  "name": "block-playground",
+  "version": "1.0.0",
+  "description": "Blockchain Playground",
+  "main": "init.sh",
+  "repository": "https://github.com/sahil143/block-plauground",
+  "author": "sahil143 (Sahil Budhwar)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "initialize": "chmod +x ./init.sh; ./init.sh"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.9.1",
+    "solc": "^0.6.10",
+    "truffle": "^5.1.30",
+    "web3": "^1.2.9"
+  }
+}
